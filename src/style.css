@@ -1,0 +1,79 @@
+body {
+  background-color: gainsboro;
+}
+
+.table {
+  background-color: #fff;
+}
+
+.header {
+  display: flex;
+  border: 1px gainsboro solid;
+  justify-content: space-between;
+  height: 40px;
+  font-size: 1rem;
+  font-weight: 600;
+  padding-bottom: 2%;
+}
+
+.refresh {
+  cursor: pointer;
+  height: 18px;
+  transition: all 0.2s;
+}
+
+.refresh.active {
+  transform: rotate(180deg);
+}
+
+.add-text {
+  display: flex;
+  justify-content: space-between;
+  border: 2px gainsboro solid;
+  height: 40px;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  margin: 10% 10% 0 10%;
+  box-shadow: 10px 10px 10px gainsboro;
+}
+
+footer {
+  background-color: rgba(201, 192, 192, 0.932);
+  margin: 0 10% 0 10%;
+  padding-top: 5px;
+  height: 40px;
+  border: 2px gainsboro solid;
+}
+
+.fa {
+  padding: 10px;
+}
+
+.clear-completed {
+  text-align: center;
+  margin: 1% 0 1% 0;
+  color: gray;
+}
+
+.clear-completed:hover {
+  background-color: aliceblue;
+}
+
+.the-elements {
+  display: grid;
+  grid-template-columns: 1fr 30fr;
+  background-color: white;
+  margin-top: 6px;
+}
+
+p {
+  padding: 0 10px;
+}
+
+input {
+  border: none;
+  width: 100%;
+}
